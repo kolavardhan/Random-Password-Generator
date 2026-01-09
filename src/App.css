@@ -1,3 +1,78 @@
+.rpg-bg {
+  height: 100vh;
+}
+
 h1 {
+  font-size: 40px;
   text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: hsl(205, 100%, 50%);
+}
+
+.userInput-box {
+  height: 50px;
+  width: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+input {
+  height: 20px;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 5px;
+  outline: none;
+}
+
+#submitBtn {
+  padding: 8px 18px;
+  border-radius: 5px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  background-color: hsl(0, 100%, 50%);
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background-color: hsl(0, 100%, 45%);
+}
+
+#submitBtn:active {
+  background-color: hsl(0, 100%, 55%);
+}
+
+#result {
+  text-align: center;
+  font-size: 18px;
+  color: hsl(249, 90%, 19%);
+  font-weight: 600;
+}
+
+.btn-box {
+  height: 50px;
+  width: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stateBtn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
 }
